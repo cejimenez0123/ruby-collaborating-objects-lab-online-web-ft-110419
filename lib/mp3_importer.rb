@@ -13,7 +13,7 @@ attr_accessor :path , :name
 file_directory =  Dir.entries(@path)
 binding.pry
 file_directory.each do |filename|
-   filename.split
+   artist_array=filename.split("-")
 
 end
 
