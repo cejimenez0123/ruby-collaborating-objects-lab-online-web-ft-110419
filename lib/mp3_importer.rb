@@ -17,6 +17,5 @@ file_directory.collect do |filename|
 
 end
 
-file_directory
   end
 end
