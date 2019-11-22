@@ -13,5 +13,8 @@ class Song
  file_array[1] = Song.new(file_array[1].strip)
  file_array[1].artist = file_array[0]
   end
+  def artist_name=(name)
+    name=Artist.new(name)
+  end
 
 end
