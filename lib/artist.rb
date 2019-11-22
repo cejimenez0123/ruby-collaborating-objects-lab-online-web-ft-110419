@@ -28,7 +28,7 @@ class Artist
       song_array = Song.all.find_all {|song| song.artist == self.name}
       binding.pry
       song_array.each {|song| print song}
-      
+
     end
 
   end
