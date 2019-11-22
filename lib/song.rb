@@ -13,7 +13,7 @@ class Song
 
  song_object = Song.new(file_array[1].strip)
  song_object.artist_name = file_array[0]
-
+song_object
 
   end
   def artist_name=(name)
