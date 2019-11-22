@@ -16,6 +16,6 @@ file_directory.each do |filename|
 
 
 end
-
+$:.unshift File.dirname(@path)
   end
 end
