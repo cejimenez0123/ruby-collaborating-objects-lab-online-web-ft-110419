@@ -12,7 +12,7 @@ class Song
   file_array =  file.split("-")
  file_array[1] = Song.new(file_array[1].strip)
  binding.pry
-  file_array[1].artist = file_array[0].strip
+  file_array[1].name.artist = file_array[0].strip
 
   end
   def artist_name=(name)
