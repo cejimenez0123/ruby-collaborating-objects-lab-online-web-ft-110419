@@ -3,4 +3,8 @@ attr_accessor :path , :name
   def initialize(path)
     @path = path
   end
+
+  def files
+    @path.split("-")
+  end
 end
