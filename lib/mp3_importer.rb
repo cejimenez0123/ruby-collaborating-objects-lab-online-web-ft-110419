@@ -10,10 +10,7 @@ attr_accessor :path , :name
 end
   end
   def files
-file_directory =  Dir.entries(@path)
-
-file_directory.collect do |filename|
-   filename.split("-")
+@files ||= Dir.glob("#{path}/*.mp3").collect{ |f| f.gsub("#{path}/", "") }
 
 end
 
