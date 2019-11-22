@@ -7,7 +7,7 @@ attr_accessor :path , :name
   end
   def import
     Song.new()
-    
+
   end
   def files
 file_directory =  Dir.glob(@path)
