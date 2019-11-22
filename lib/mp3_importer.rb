@@ -11,14 +11,14 @@ attr_accessor :path , :name
 
   end
   def files
-@file_directory =  Dir.entries(@path)
+file_directory =  Dir.entries(@path)
 
-@file_directory.each do |filename|
+file_directory.each do |filename|
    artist_array=filename.split("-")
 
 end
-@file_directory.delete(".")
-@file_directory.delete("..")
+file_directory.delete(".")
+file_directory.delete("..")
 file_directory
   end
 end
