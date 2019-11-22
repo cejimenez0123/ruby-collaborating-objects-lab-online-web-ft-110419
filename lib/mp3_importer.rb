@@ -13,8 +13,8 @@ attr_accessor :path , :name
 file_directory =  Dir.entries(@path)
 file_directory.each do |filename|
    artist_array=filename.split("-")
-   artist_array[0]
+   
 end
-
+file_directory
   end
 end
