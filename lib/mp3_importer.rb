@@ -6,7 +6,7 @@ attr_accessor :path , :name
     @@all = []
   end
   def import
-    
+
   fileSong.new_by_filename(@path)
 
   end
