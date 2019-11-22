@@ -13,7 +13,7 @@ end
 file_directory =  Dir.entries(@path)
 
 file_directory.collect do |filename|
-   artist_array=filename.split("-")
+   filename.split("-")
 
 end
 
