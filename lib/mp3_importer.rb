@@ -6,9 +6,8 @@ attr_accessor :path , :name
     @@all = []
   end
   def import
-
-  fileSong.new_by_filename(@path)
-
+    files.each do |file| Song.new_by_filename(file)
+end
   end
   def files
 file_directory =  Dir.entries(@path)
