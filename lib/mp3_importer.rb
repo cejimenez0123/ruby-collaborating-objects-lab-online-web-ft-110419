@@ -16,6 +16,7 @@ file_directory.each do |filename|
 
 
 end
-$:.unshift File.dirname(@path)
+file_diractory.each do |file| $:.unshift File.dirname(file)
+end
   end
 end
