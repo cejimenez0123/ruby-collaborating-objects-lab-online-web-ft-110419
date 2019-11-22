@@ -10,9 +10,10 @@ attr_accessor :path , :name
 
   end
   def files
-file_directory =  Dir.glob(@path)
+file_directory =  Dir.entries(@path)
 binding.pry
 file_directory.each do |filename|
+   filename.split
 
 end
 
