@@ -15,6 +15,6 @@ file_directory.each do |filename|
    artist_array=filename.split("-")
 
 end
-binding.pry
+file_directory.pop(2)
   end
 end
