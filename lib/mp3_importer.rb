@@ -6,7 +6,7 @@ attr_accessor :path , :name
     @@all = []
   end
   def import
-    Song.new()
+  @path =  Song.new(@path)
 
   end
   def files
