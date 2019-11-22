@@ -25,8 +25,8 @@ class Artist
     end
   end
     def print_songs
-      binding.pry
-      song_array = Song.all.find_all {|song| song.artist == self.name}
+      
+      song_array = Song.all.find_all {|song| binding.pry song.artist == self.name}
 
       song_array.each {|song| print song}
 
