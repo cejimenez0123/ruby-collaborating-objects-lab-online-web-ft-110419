@@ -12,7 +12,7 @@ class Song
   file_array =  file.split(" - ")
 
  song_object = Song.new(file_array[1].strip)
- song_object.artist = file_array[0]
+ song_object.artist_name = file_array[0]
 
 
   end
