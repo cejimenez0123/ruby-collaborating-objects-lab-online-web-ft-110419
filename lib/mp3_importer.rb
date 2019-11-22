@@ -17,5 +17,6 @@ file_directory.each do |filename|
 
 end
 file_directory.delete("..")
+file_directory
   end
 end
